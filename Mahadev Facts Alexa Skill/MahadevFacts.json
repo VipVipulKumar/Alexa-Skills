@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "shiv kosh",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "shivIntent",
+                    "slots": [],
+                    "samples": [
+                        "lord shiva facts",
+                        "tell me lord shiva facts",
+                        "facts about lord shiva",
+                        "tell me facts about lord shiva",
+                        "tell me interesting facts about Lord Shiva"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

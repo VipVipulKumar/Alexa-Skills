@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mathematics facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "diwaliIntent",
+                    "slots": [],
+                    "samples": [
+                        "mathematics facts",
+                        "tell me mathematics facts",
+                        "facts about mathematics",
+                        "tell me facts about mathematics",
+                        "tell me interesting facts about mathematics"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "morse code generator",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "morse_main",
+                    "slots": [
+                        {
+                            "name": "message",
+                            "type": "Message"
+                        }
+                    ],
+                    "samples": [
+                        "{message} is",
+                        "morse code for {message} is",
+                        "my {message} is",
+                        "translate {message}",
+                        "{message}",
+                        "What is a morse code form of {message}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Message",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "message"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "very long message"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "long message"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

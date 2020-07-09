@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "earth facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "earthIntent",
+                    "slots": [],
+                    "samples": [
+                        "earth facts",
+                        "tell me earth facts",
+                        "facts about earth",
+                        "tell me facts about earth",
+                        "tell me interesting facts about earth"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

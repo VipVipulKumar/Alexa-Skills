@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "trees facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "treesIntent",
+                    "slots": [],
+                    "samples": [
+                        "trees facts",
+                        "tell me trees facts",
+                        "facts about trees",
+                        "tell me facts about trees",
+                        "tell me interesting facts about trees"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

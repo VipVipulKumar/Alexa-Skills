@@ -1,0 +1,232 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "indian states capitals",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "askState",
+                    "slots": [
+                        {
+                            "name": "statename",
+                            "type": "StateName"
+                        }
+                    ],
+                    "samples": [
+                        "capital of {statename} is",
+                        "What is the capital of {statename} called",
+                        "capital of {statename}",
+                        "{statename} ka capital",
+                        "{statename}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "StateName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Andhra Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arunachal Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Assam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bihar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chhattisgarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Goa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gujarat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Haryana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Himachal Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jammu and Kashmir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jharkhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Karnataka"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kerala"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Madhya Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Maharashtra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manipur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meghalaya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mizoram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nagaland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orissa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Punjab"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rajasthan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sikkim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tamil Nadu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Telangana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tripura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Uttar Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Uttarakhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "West Bengal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Andaman and Nicobar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chandigarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dadar and Nagar Haveli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Daman and Diu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lakshadweep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pondicherry"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

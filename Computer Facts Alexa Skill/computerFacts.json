@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "computer facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "computerIntent",
+                    "slots": [],
+                    "samples": [
+                        "computer facts",
+                        "tell me computer facts",
+                        "facts about computer",
+                        "tell me facts about computer",
+                        "tell me interesting facts about computer"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "girls facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "humanBodyIntent",
+                    "slots": [],
+                    "samples": [
+                        "girls facts",
+                        "tell me girls facts",
+                        "facts about girls",
+                        "tell me facts about girls",
+                        "tell me interesting facts about girls"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

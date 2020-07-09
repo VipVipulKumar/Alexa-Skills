@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "human body facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "humanBodyIntent",
+                    "slots": [],
+                    "samples": [
+                        "human body facts",
+                        "tell me human body facts",
+                        "facts about my body",
+                        "tell me facts about human body",
+                        "tell me interesting facts about human body"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

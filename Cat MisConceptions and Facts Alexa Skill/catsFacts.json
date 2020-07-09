@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cats facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "catIntent",
+                    "slots": [],
+                    "samples": [
+                        "cats facts",
+                        "tell me cats facts",
+                        "facts about cats",
+                        "tell me facts about cats",
+                        "tell me interesting facts about cats"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

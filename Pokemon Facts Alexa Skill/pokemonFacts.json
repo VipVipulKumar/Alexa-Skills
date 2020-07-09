@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pet monster facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "whatispetfun",
+                    "slots": [],
+                    "samples": [
+                        "pet monster facts",
+                        "tell me pet monster",
+                        "facts pet monster",
+                        "tell me pet monster facts",
+                        "tell me about pet monster facts"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "yoga facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "yogaIntent",
+                    "slots": [],
+                    "samples": [
+                        "yoga facts",
+                        "tell me yoga facts",
+                        "facts about yoga",
+                        "tell me facts about yoga",
+                        "tell me interesting facts about yoga"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

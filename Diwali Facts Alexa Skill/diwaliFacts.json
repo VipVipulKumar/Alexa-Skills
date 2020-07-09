@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "diwali facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "diwaliIntent",
+                    "slots": [],
+                    "samples": [
+                        "diwali facts",
+                        "tell me diwali facts",
+                        "facts about diwali",
+                        "tell me facts about diwali",
+                        "tell me interesting facts about diwali"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "sun facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "sunIntent",
+                    "slots": [],
+                    "samples": [
+                        "sun facts",
+                        "tell me sun facts",
+                        "facts about sun",
+                        "tell me facts about sun",
+                        "tell me interesting facts about sun"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
